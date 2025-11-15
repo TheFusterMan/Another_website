@@ -1,0 +1,517 @@
+[readAgentDetails@agent_details.cc:101                        | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON File stream
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON FOG stream
+[init@components_list_impl.h:128                              | ---] Initializing component: Environment
+[init@components_list_impl.h:128                              | ---] Initializing component: DebugIS
+[2025-11-11T08:03:35.522076: : init@components_list_impl.h:128                            | ---] Initializing component: Version
+[2025-11-11T08:03:35.522096: : init@components_list_impl.h:128                            | ---] Initializing component: Buffer
+[2025-11-11T08:03:35.522104: : init@components_list_impl.h:128                            | ---] Initializing component: ShellCmd
+[2025-11-11T08:03:35.522114: : init@components_list_impl.h:128                            | ---] Initializing component: MetricScraper
+[2025-11-11T08:03:35.522126: : init@components_list_impl.h:128                            | ---] Initializing component: GenericMetric
+[2025-11-11T08:03:35.522136: : init@components_list_impl.h:128                            | ---] Initializing component: Messaging
+[2025-11-11T08:03:35.522874: : init@components_list_impl.h:128                            | ---] Initializing component: MainloopComponent
+[2025-11-11T08:03:35.523125: : init@components_list_impl.h:128                            | ---] Initializing component: ConfigComponent
+[2025-11-11T08:03:35.523249: : init@components_list_impl.h:128                            | ---] Initializing component: InstanceAwareness
+[2025-11-11T08:03:35.523268: : init@components_list_impl.h:128                            | ---] Initializing component: IntelligenceComponentV2
+[2025-11-11T08:03:35.523378: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetails
+[2025-11-11T08:03:35.526264: : getMachineTypeFromDmiTable@agent_details.cc:368            | ###] Error. Could not decode the DMI table. Table value is empty
+[2025-11-11T08:03:35.526297: : registerMachineType@agent_details.cc:390                   | ###] Error. Machine type is unrecognized
+[2025-11-11T08:03:35.526308: : registerMachineType@agent_details.cc:395                   | ---] Setting machine type 3
+[2025-11-11T08:03:35.526335: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:03:35.526360: : loadAccessToken@agent_details.cc:344                       | ###] Failed to open session token file: /etc/cp/data/data3.a
+[2025-11-11T08:03:35.526491: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:03:35.526509: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:03:35.526519: : init@components_list_impl.h:128                            | ---] Initializing component: LoggingComp
+[2025-11-11T08:03:35.526676: : init@components_list_impl.h:128                            | ---] Initializing component: TimeProxyComponent
+[2025-11-11T08:03:35.526692: : init@components_list_impl.h:128                            | ---] Initializing component: SignalHandler
+[2025-11-11T08:03:35.526834: : init@components_list_impl.h:128                            | ---] Initializing component: RestServer
+[2025-11-11T08:03:35.526939: : init@components_list_impl.h:128                            | ---] Initializing component: Encryptor
+[2025-11-11T08:03:35.526950: : init@components_list_impl.h:128                            | ---] Initializing component: SocketIS
+[2025-11-11T08:03:35.526958: : init@components_list_impl.h:128                            | ---] Initializing component: CPUCalculator
+[2025-11-11T08:03:35.526986: : init@components_list_impl.h:128                            | ---] Initializing component: CPUManager
+[2025-11-11T08:03:35.527310: : init@components_list_impl.h:128                            | ---] Initializing component: MemoryCalculator
+[2025-11-11T08:03:35.527446: : init@components_list_impl.h:128                            | ---] Initializing component: TenantManager
+[2025-11-11T08:03:35.527469: : init@components_list_impl.h:128                            | ---] Initializing component: GenericRulebase
+[2025-11-11T08:03:35.527478: : init@components_list_impl.h:128                            | ---] Initializing component: EnvDetails
+[2025-11-11T08:03:35.527486: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationStatus
+[2025-11-11T08:03:35.527610: : init@components_list_impl.h:128                            | ---] Initializing component: PackageHandler
+[2025-11-11T08:03:35.527626: : init@components_list_impl.h:128                            | ---] Initializing component: Downloader
+[2025-11-11T08:03:35.528009: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceController
+[2025-11-11T08:03:35.528159: : init@components_list_impl.h:128                            | ---] Initializing component: ManifestController
+[2025-11-11T08:03:35.528220: : init@components_list_impl.h:128                            | ---] Initializing component: UpdateCommunication
+[2025-11-11T08:03:35.528247: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetailsReporter
+[2025-11-11T08:03:35.528272: : handleAttrPersistence@agent_details_reporter.cc:101        | ###] Failed to open attributes Persistence file. Operation: load, Path /etc/cp/conf/reportedAttrBackup.json
+[2025-11-11T08:03:35.528352: : init@components_list_impl.h:128                            | ---] Initializing component: DetailsResolver
+[2025-11-11T08:03:35.528368: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationComp
+[2025-11-11T08:03:35.531965: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:03:35.535229: : setOpenSSLCerts@orchestration_comp.cc:2013                 | ###] Failed to load OpenSSL default certificate authority. Error: no OpenSSL directory found
+[2025-11-11T08:03:35.535632: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationTools
+[2025-11-11T08:03:35.535649: : init@components_list_impl.h:128                            | ---] Initializing component: HealthChecker
+[2025-11-11T08:03:35.535690: : init@components_list_impl.h:128                            | ---] Initializing component: HealthCheckManager
+[2025-11-11T08:03:35.535763: : init@components_list_impl.h:128                            | ---] Initializing component: LocalPolicyMgmtGenerator
+[2025-11-11T08:03:35.535775: : init@components_list_impl.h:128                            | ---] Initializing component: ExternalSdkServer
+[2025-11-11T08:03:35.535785: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceHealthStatus
+[2025-11-11T08:03:35.535845: : run@mainloop.cc:244                                        | ---] Starting the Mainloop
+[2025-11-11T08:03:35.536099: : <14> operator()@rest_server.cc:299                         | ---] REST server started: 7777. Accepting: loopback connections
+[2025-11-11T08:03:35.547968: : <9> loadAccessToken@agent_details.cc:344                   | ###] Failed to open session token file: /etc/cp/data/data3.a
+[2025-11-11T08:03:35.552196: : <25> updateServiceConfigurationFile@service_controller.cc:1118 | ---] Successfully updated policy file: /etc/cp/conf/orchestration/orchestration.policy
+[2025-11-11T08:03:35.552224: : <25> updateServiceConfiguration@service_controller.cc:886  | ---] Successfully updated policy file. Policy name: orchestration
+[2025-11-11T08:03:35.552516: : <25> updateServiceConfigurationFile@service_controller.cc:1118 | ---] Successfully updated policy file: /etc/cp/conf/registration-data/registration-data.policy
+[2025-11-11T08:03:35.552532: : <25> updateServiceConfiguration@service_controller.cc:886  | ---] Successfully updated policy file. Policy name: registration-data
+[2025-11-11T08:03:35.596021: : <5> reportStartupEvent@mainloop.cc:229                     | ---] Startup report was successfully sent to fog
+[2025-11-11T08:03:35.596346: : <12> setupAlternateSignalStack@signal_handler.cc:272       | ---] Alternate stack allocated successfully. Allocated size: 1048576
+[2025-11-11T08:03:36.418852: : <26> sendSyncMessageWithoutResponse@interface_impl.h:118   | ###] Received error from server. Status code: -1, error response: Access token is missing.
+[2025-11-11T08:03:36.418911: : <26> executeHealthCheck@health_check_manager.cc:253        | ###] Failed to send periodic health check patch to the fog
+[2025-11-11T08:03:36.418924: : <26> run@mainloop.cc:325                                   | ###] Routine execution exceeded run time. Routine name: Health check manager periodic check, time slice: 1500, exceeded time: 336124 microseconds
+[2025-11-11T08:03:36.430743: : <30> getAccessToken@fog_authenticator.cc:321               | ---] Sending request for access token. Trace: cf136b5c-2f54-42f6-8630-5f4f5ddf95ca
+[2025-11-11T08:03:36.841658: : <30> getAccessToken@fog_authenticator.cc:343               | ---] New access token was saved
+[2025-11-11T08:03:36.841797: : <30> operator()@fog_authenticator.cc:632                   | ---] New token was received, expiration time: 3600
+[2025-11-11T08:03:38.064480: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 342939 microseconds
+[2025-11-11T08:03:41.547782: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 344007 microseconds
+[2025-11-11T08:03:48.456177: : <25> setDelayedUpgradeTime@orchestration_comp.cc:1628      | ---] Setting upgrade delay time to 30 minutes from now.
+[2025-11-11T08:03:48.468519: : <31> sendRegistrationData@orchestration_comp.cc:1745       | ---] Sending registration data
+[2025-11-11T08:03:48.468707: : <32> getRegistrationToken@fog_authenticator.cc:396         | ---] Registration token has been loaded from container environment
+[2025-11-11T08:03:48.468745: : <32> registerLocalAgentToFog@fog_authenticator.cc:419      | ---] Start local agent registration to the fog
+[2025-11-11T08:03:48.726262: : run@mainloop.cc:365                                        | ---] Mainloop ended - stopping all routines
+[2025-11-11T08:03:48.726383: : fini@components_list_impl.h:137                            | ---] Finalizing component: ServiceHealthStatus
+[2025-11-11T08:03:48.726398: : fini@components_list_impl.h:137                            | ---] Finalizing component: ExternalSdkServer
+[2025-11-11T08:03:48.726408: : fini@components_list_impl.h:137                            | ---] Finalizing component: LocalPolicyMgmtGenerator
+[2025-11-11T08:03:48.726417: : fini@components_list_impl.h:137                            | ---] Finalizing component: HealthCheckManager
+[2025-11-11T08:03:48.726426: : fini@components_list_impl.h:137                            | ---] Finalizing component: HealthChecker
+[2025-11-11T08:03:48.726436: : fini@components_list_impl.h:137                            | ---] Finalizing component: OrchestrationTools
+[2025-11-11T08:03:48.726445: : fini@components_list_impl.h:137                            | ---] Finalizing component: OrchestrationComp
+[2025-11-11T08:03:48.726545: : fini@components_list_impl.h:137                            | ---] Finalizing component: DetailsResolver
+[2025-11-11T08:03:48.726556: : fini@components_list_impl.h:137                            | ---] Finalizing component: AgentDetailsReporter
+[2025-11-11T08:03:48.726663: : fini@components_list_impl.h:137                            | ---] Finalizing component: UpdateCommunication
+[2025-11-11T08:03:48.726679: : fini@components_list_impl.h:137                            | ---] Finalizing component: ManifestController
+[2025-11-11T08:03:48.726688: : fini@components_list_impl.h:137                            | ---] Finalizing component: ServiceController
+[2025-11-11T08:03:48.726696: : fini@components_list_impl.h:137                            | ---] Finalizing component: Downloader
+[2025-11-11T08:03:48.726704: : fini@components_list_impl.h:137                            | ---] Finalizing component: PackageHandler
+[2025-11-11T08:03:48.726712: : fini@components_list_impl.h:137                            | ---] Finalizing component: OrchestrationStatus
+[2025-11-11T08:03:48.726720: : fini@components_list_impl.h:137                            | ---] Finalizing component: EnvDetails
+[2025-11-11T08:03:48.726727: : fini@components_list_impl.h:137                            | ---] Finalizing component: GenericRulebase
+[2025-11-11T08:03:48.726735: : fini@components_list_impl.h:137                            | ---] Finalizing component: TenantManager
+[2025-11-11T08:03:48.726745: : fini@components_list_impl.h:137                            | ---] Finalizing component: MemoryCalculator
+[2025-11-11T08:03:48.726753: : fini@components_list_impl.h:137                            | ---] Finalizing component: CPUManager
+[2025-11-11T08:03:48.726762: : fini@components_list_impl.h:137                            | ---] Finalizing component: CPUCalculator
+[2025-11-11T08:03:48.726770: : fini@components_list_impl.h:137                            | ---] Finalizing component: SocketIS
+[2025-11-11T08:03:48.726778: : fini@components_list_impl.h:137                            | ---] Finalizing component: Encryptor
+[2025-11-11T08:03:48.726786: : fini@components_list_impl.h:137                            | ---] Finalizing component: RestServer
+[2025-11-11T08:03:48.726794: : fini@rest_server.cc:315                                    | ---] Stoping the REST server
+[2025-11-11T08:03:48.726803: : fini@components_list_impl.h:137                            | ---] Finalizing component: SignalHandler
+[2025-11-11T08:03:48.726812: : fini@components_list_impl.h:137                            | ---] Finalizing component: TimeProxyComponent
+[2025-11-11T08:03:48.726820: : fini@components_list_impl.h:137                            | ---] Finalizing component: LoggingComp
+[2025-11-11T08:03:48.726828: : fini@components_list_impl.h:137                            | ---] Finalizing component: AgentDetails
+[2025-11-11T08:03:48.726836: : fini@components_list_impl.h:137                            | ---] Finalizing component: IntelligenceComponentV2
+[2025-11-11T08:03:48.726844: : fini@components_list_impl.h:137                            | ---] Finalizing component: InstanceAwareness
+[2025-11-11T08:03:48.726851: : fini@components_list_impl.h:137                            | ---] Finalizing component: ConfigComponent
+[2025-11-11T08:03:48.726859: : fini@components_list_impl.h:137                            | ---] Finalizing component: MainloopComponent
+[2025-11-11T08:03:48.726866: : fini@components_list_impl.h:137                            | ---] Finalizing component: Messaging
+[2025-11-11T08:03:48.726874: : fini@components_list_impl.h:137                            | ---] Finalizing component: GenericMetric
+[2025-11-11T08:03:48.726882: : fini@components_list_impl.h:137                            | ---] Finalizing component: MetricScraper
+[2025-11-11T08:03:48.726889: : fini@components_list_impl.h:137                            | ---] Finalizing component: ShellCmd
+[2025-11-11T08:03:48.726897: : fini@components_list_impl.h:137                            | ---] Finalizing component: Buffer
+[2025-11-11T08:03:48.726904: : fini@components_list_impl.h:137                            | ---] Finalizing component: Version
+[2025-11-11T08:03:48.726912: : fini@components_list_impl.h:137                            | ---] Finalizing component: DebugIS
+[readAgentDetails@agent_details.cc:101                        | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON File stream
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON FOG stream
+[init@components_list_impl.h:128                              | ---] Initializing component: Environment
+[init@components_list_impl.h:128                              | ---] Initializing component: DebugIS
+[2025-11-11T08:03:51.885824: : init@components_list_impl.h:128                            | ---] Initializing component: Version
+[2025-11-11T08:03:51.885854: : init@components_list_impl.h:128                            | ---] Initializing component: Buffer
+[2025-11-11T08:03:51.885866: : init@components_list_impl.h:128                            | ---] Initializing component: ShellCmd
+[2025-11-11T08:03:51.885879: : init@components_list_impl.h:128                            | ---] Initializing component: MetricScraper
+[2025-11-11T08:03:51.885893: : init@components_list_impl.h:128                            | ---] Initializing component: GenericMetric
+[2025-11-11T08:03:51.885908: : init@components_list_impl.h:128                            | ---] Initializing component: Messaging
+[2025-11-11T08:03:51.886494: : init@components_list_impl.h:128                            | ---] Initializing component: MainloopComponent
+[2025-11-11T08:03:51.886804: : init@components_list_impl.h:128                            | ---] Initializing component: ConfigComponent
+[2025-11-11T08:03:51.886970: : init@components_list_impl.h:128                            | ---] Initializing component: InstanceAwareness
+[2025-11-11T08:03:51.886990: : init@components_list_impl.h:128                            | ---] Initializing component: IntelligenceComponentV2
+[2025-11-11T08:03:51.887199: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetails
+[2025-11-11T08:03:51.890873: : getMachineTypeFromDmiTable@agent_details.cc:368            | ###] Error. Could not decode the DMI table. Table value is empty
+[2025-11-11T08:03:51.890922: : registerMachineType@agent_details.cc:390                   | ###] Error. Machine type is unrecognized
+[2025-11-11T08:03:51.890935: : registerMachineType@agent_details.cc:395                   | ---] Setting machine type 3
+[2025-11-11T08:03:51.890985: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:03:51.891770: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:03:51.891849: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:03:51.891867: : init@components_list_impl.h:128                            | ---] Initializing component: LoggingComp
+[2025-11-11T08:03:51.892057: : init@components_list_impl.h:128                            | ---] Initializing component: TimeProxyComponent
+[2025-11-11T08:03:51.892072: : init@components_list_impl.h:128                            | ---] Initializing component: SignalHandler
+[2025-11-11T08:03:51.892204: : init@components_list_impl.h:128                            | ---] Initializing component: RestServer
+[2025-11-11T08:03:51.892297: : init@components_list_impl.h:128                            | ---] Initializing component: Encryptor
+[2025-11-11T08:03:51.892311: : init@components_list_impl.h:128                            | ---] Initializing component: SocketIS
+[2025-11-11T08:03:51.892321: : init@components_list_impl.h:128                            | ---] Initializing component: CPUCalculator
+[2025-11-11T08:03:51.892330: : init@components_list_impl.h:128                            | ---] Initializing component: CPUManager
+[2025-11-11T08:03:51.892581: : init@components_list_impl.h:128                            | ---] Initializing component: MemoryCalculator
+[2025-11-11T08:03:51.892796: : init@components_list_impl.h:128                            | ---] Initializing component: TenantManager
+[2025-11-11T08:03:51.892829: : init@components_list_impl.h:128                            | ---] Initializing component: GenericRulebase
+[2025-11-11T08:03:51.892842: : init@components_list_impl.h:128                            | ---] Initializing component: EnvDetails
+[2025-11-11T08:03:51.892854: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationStatus
+[2025-11-11T08:03:51.893031: : loadFromFile@orchestration_status.cc:510                   | ---] Orchestration status loaded from file. File: /etc/cp/conf/orchestration_status.json
+[2025-11-11T08:03:51.893167: : init@components_list_impl.h:128                            | ---] Initializing component: PackageHandler
+[2025-11-11T08:03:51.893182: : init@components_list_impl.h:128                            | ---] Initializing component: Downloader
+[2025-11-11T08:03:51.893205: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceController
+[2025-11-11T08:03:51.893381: : init@components_list_impl.h:128                            | ---] Initializing component: ManifestController
+[2025-11-11T08:03:51.893427: : init@components_list_impl.h:128                            | ---] Initializing component: UpdateCommunication
+[2025-11-11T08:03:51.893454: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetailsReporter
+[2025-11-11T08:03:51.893584: : init@components_list_impl.h:128                            | ---] Initializing component: DetailsResolver
+[2025-11-11T08:03:51.893605: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationComp
+[2025-11-11T08:03:51.897316: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:03:51.900226: : setOpenSSLCerts@orchestration_comp.cc:2013                 | ###] Failed to load OpenSSL default certificate authority. Error: no OpenSSL directory found
+[2025-11-11T08:03:51.900832: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationTools
+[2025-11-11T08:03:51.900855: : init@components_list_impl.h:128                            | ---] Initializing component: HealthChecker
+[2025-11-11T08:03:51.900897: : init@components_list_impl.h:128                            | ---] Initializing component: HealthCheckManager
+[2025-11-11T08:03:51.900988: : init@components_list_impl.h:128                            | ---] Initializing component: LocalPolicyMgmtGenerator
+[2025-11-11T08:03:51.901005: : init@components_list_impl.h:128                            | ---] Initializing component: ExternalSdkServer
+[2025-11-11T08:03:51.901021: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceHealthStatus
+[2025-11-11T08:03:51.901168: : run@mainloop.cc:244                                        | ---] Starting the Mainloop
+[2025-11-11T08:03:51.901518: : <14> operator()@rest_server.cc:299                         | ---] REST server started: 7777. Accepting: loopback connections
+[2025-11-11T08:03:51.984583: : <5> reportStartupEvent@mainloop.cc:229                     | ---] Startup report was successfully sent to fog
+[2025-11-11T08:03:51.984937: : <12> setupAlternateSignalStack@signal_handler.cc:272       | ---] Alternate stack allocated successfully. Allocated size: 1048576
+[2025-11-11T08:03:52.078142: : <29> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 1, Service Name: Attachment Registration Manager
+[2025-11-11T08:03:52.504090: : <26> run@mainloop.cc:325                                   | ###] Routine execution exceeded run time. Routine name: Health check manager periodic check, time slice: 1500, exceeded time: 345113 microseconds
+[2025-11-11T08:03:54.073895: : <25> getRegistrationToken@fog_authenticator.cc:388         | ---] Registration token has been loaded from: /etc/cp/conf/registration-data.json
+[2025-11-11T08:03:54.422296: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 330373 microseconds
+[2025-11-11T08:03:54.427665: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b03fdb47-a6b8-4320-a201-6ab8be3d1c50","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b03fdb47-a6b8-4320-a201-6ab8be3d1c50","severity":"High"}
+[2025-11-11T08:03:54.427747: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b03fdb47-a6b8-4320-a201-6ab8be3d1c50","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b03fdb47-a6b8-4320-a201-6ab8be3d1c50","severity":"High"} Next attempt to start the orchestration will be in: 30 seconds
+[2025-11-11T08:03:56.902735: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 330956 microseconds
+[2025-11-11T08:04:24.439905: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:04:24.712953: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"d9ec4101-9f5d-49f9-84c6-73cd662c85bb","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"d9ec4101-9f5d-49f9-84c6-73cd662c85bb","severity":"High"}
+[2025-11-11T08:04:24.713081: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"d9ec4101-9f5d-49f9-84c6-73cd662c85bb","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"d9ec4101-9f5d-49f9-84c6-73cd662c85bb","severity":"High"} Next attempt to start the orchestration will be in: 30 seconds
+[2025-11-11T08:04:54.717380: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:04:55.299761: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"954accc8-b46e-4b5e-9b19-f18de7ef12a9","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"954accc8-b46e-4b5e-9b19-f18de7ef12a9","severity":"High"}
+[2025-11-11T08:04:55.299848: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"954accc8-b46e-4b5e-9b19-f18de7ef12a9","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"954accc8-b46e-4b5e-9b19-f18de7ef12a9","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:05:55.308558: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:05:55.546894: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"769b742c-481f-4aaa-9153-c3ba0a08449e","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"769b742c-481f-4aaa-9153-c3ba0a08449e","severity":"High"}
+[2025-11-11T08:05:55.546979: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"769b742c-481f-4aaa-9153-c3ba0a08449e","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"769b742c-481f-4aaa-9153-c3ba0a08449e","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:06:55.548480: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:06:55.782047: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"431bfb17-1c4c-48ed-bcde-88a152d4e386","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"431bfb17-1c4c-48ed-bcde-88a152d4e386","severity":"High"}
+[2025-11-11T08:06:55.782150: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"431bfb17-1c4c-48ed-bcde-88a152d4e386","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"431bfb17-1c4c-48ed-bcde-88a152d4e386","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:07:55.784708: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:07:56.087672: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b7aa248a-f782-4ab4-bdc9-e8f2730a4ca3","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b7aa248a-f782-4ab4-bdc9-e8f2730a4ca3","severity":"High"}
+[2025-11-11T08:07:56.087747: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b7aa248a-f782-4ab4-bdc9-e8f2730a4ca3","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b7aa248a-f782-4ab4-bdc9-e8f2730a4ca3","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:08:56.093127: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:08:56.497069: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"af46fdeb-3328-4a1b-851a-72cc08634cc9","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"af46fdeb-3328-4a1b-851a-72cc08634cc9","severity":"High"}
+[2025-11-11T08:08:56.497145: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"af46fdeb-3328-4a1b-851a-72cc08634cc9","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"af46fdeb-3328-4a1b-851a-72cc08634cc9","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:09:56.502908: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:09:56.935904: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b23afa7f-4888-4598-9dde-5320ffdfdf7f","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b23afa7f-4888-4598-9dde-5320ffdfdf7f","severity":"High"}
+[2025-11-11T08:09:56.936029: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b23afa7f-4888-4598-9dde-5320ffdfdf7f","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"b23afa7f-4888-4598-9dde-5320ffdfdf7f","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:10:56.940581: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:10:57.166360: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"9a97da1a-938e-4646-b691-f6c2e2e2af2f","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"9a97da1a-938e-4646-b691-f6c2e2e2af2f","severity":"High"}
+[2025-11-11T08:10:57.166436: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"9a97da1a-938e-4646-b691-f6c2e2e2af2f","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"9a97da1a-938e-4646-b691-f6c2e2e2af2f","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:11:57.178955: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:11:57.535976: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fd62277c-470e-4f67-938d-ebb301afca9c","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fd62277c-470e-4f67-938d-ebb301afca9c","severity":"High"}
+[2025-11-11T08:11:57.536119: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fd62277c-470e-4f67-938d-ebb301afca9c","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fd62277c-470e-4f67-938d-ebb301afca9c","severity":"High"} Next attempt to start the orchestration will be in: 300 seconds
+[2025-11-11T08:14:03.314369: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 360147 microseconds
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON File stream
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON FOG stream
+[init@components_list_impl.h:128                              | ---] Initializing component: Environment
+[init@components_list_impl.h:128                              | ---] Initializing component: DebugIS
+[2025-11-11T08:34:59.755621: : init@components_list_impl.h:128                            | ---] Initializing component: Version
+[2025-11-11T08:34:59.755641: : init@components_list_impl.h:128                            | ---] Initializing component: Buffer
+[2025-11-11T08:34:59.755651: : init@components_list_impl.h:128                            | ---] Initializing component: ShellCmd
+[2025-11-11T08:34:59.755661: : init@components_list_impl.h:128                            | ---] Initializing component: MetricScraper
+[2025-11-11T08:34:59.755672: : init@components_list_impl.h:128                            | ---] Initializing component: GenericMetric
+[2025-11-11T08:34:59.755683: : init@components_list_impl.h:128                            | ---] Initializing component: Messaging
+[2025-11-11T08:34:59.756278: : init@components_list_impl.h:128                            | ---] Initializing component: MainloopComponent
+[2025-11-11T08:34:59.756455: : init@components_list_impl.h:128                            | ---] Initializing component: ConfigComponent
+[2025-11-11T08:34:59.756541: : init@components_list_impl.h:128                            | ---] Initializing component: InstanceAwareness
+[2025-11-11T08:34:59.756555: : init@components_list_impl.h:128                            | ---] Initializing component: IntelligenceComponentV2
+[2025-11-11T08:34:59.756626: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetails
+[2025-11-11T08:34:59.759163: : getMachineTypeFromDmiTable@agent_details.cc:368            | ###] Error. Could not decode the DMI table. Table value is empty
+[2025-11-11T08:34:59.759187: : registerMachineType@agent_details.cc:390                   | ###] Error. Machine type is unrecognized
+[2025-11-11T08:34:59.759199: : registerMachineType@agent_details.cc:395                   | ---] Setting machine type 3
+[2025-11-11T08:34:59.760360: : init@components_list_impl.h:128                            | ---] Initializing component: LoggingComp
+[2025-11-11T08:34:59.760517: : init@components_list_impl.h:128                            | ---] Initializing component: TimeProxyComponent
+[2025-11-11T08:34:59.760532: : init@components_list_impl.h:128                            | ---] Initializing component: SignalHandler
+[2025-11-11T08:34:59.760652: : init@components_list_impl.h:128                            | ---] Initializing component: RestServer
+[2025-11-11T08:34:59.760745: : init@components_list_impl.h:128                            | ---] Initializing component: Encryptor
+[2025-11-11T08:34:59.760756: : init@components_list_impl.h:128                            | ---] Initializing component: SocketIS
+[2025-11-11T08:34:59.760764: : init@components_list_impl.h:128                            | ---] Initializing component: CPUCalculator
+[2025-11-11T08:34:59.760773: : init@components_list_impl.h:128                            | ---] Initializing component: CPUManager
+[2025-11-11T08:34:59.760986: : init@components_list_impl.h:128                            | ---] Initializing component: MemoryCalculator
+[2025-11-11T08:34:59.761112: : init@components_list_impl.h:128                            | ---] Initializing component: TenantManager
+[2025-11-11T08:34:59.761130: : init@components_list_impl.h:128                            | ---] Initializing component: GenericRulebase
+[2025-11-11T08:34:59.761138: : init@components_list_impl.h:128                            | ---] Initializing component: EnvDetails
+[2025-11-11T08:34:59.761146: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationStatus
+[2025-11-11T08:34:59.761564: : loadFromFile@orchestration_status.cc:510                   | ---] Orchestration status loaded from file. File: /etc/cp/conf/orchestration_status.json
+[2025-11-11T08:34:59.761682: : init@components_list_impl.h:128                            | ---] Initializing component: PackageHandler
+[2025-11-11T08:34:59.761696: : init@components_list_impl.h:128                            | ---] Initializing component: Downloader
+[2025-11-11T08:34:59.761746: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceController
+[2025-11-11T08:34:59.762575: : init@components_list_impl.h:128                            | ---] Initializing component: ManifestController
+[2025-11-11T08:34:59.762640: : init@components_list_impl.h:128                            | ---] Initializing component: UpdateCommunication
+[2025-11-11T08:34:59.762671: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetailsReporter
+[2025-11-11T08:34:59.763242: : init@components_list_impl.h:128                            | ---] Initializing component: DetailsResolver
+[2025-11-11T08:34:59.763268: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationComp
+[2025-11-11T08:34:59.769616: : setOpenSSLCerts@orchestration_comp.cc:2013                 | ###] Failed to load OpenSSL default certificate authority. Error: no OpenSSL directory found
+[2025-11-11T08:34:59.770047: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationTools
+[2025-11-11T08:34:59.770067: : init@components_list_impl.h:128                            | ---] Initializing component: HealthChecker
+[2025-11-11T08:34:59.770109: : init@components_list_impl.h:128                            | ---] Initializing component: HealthCheckManager
+[2025-11-11T08:34:59.770211: : init@components_list_impl.h:128                            | ---] Initializing component: LocalPolicyMgmtGenerator
+[2025-11-11T08:34:59.770226: : init@components_list_impl.h:128                            | ---] Initializing component: ExternalSdkServer
+[2025-11-11T08:34:59.770236: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceHealthStatus
+[2025-11-11T08:34:59.770292: : run@mainloop.cc:244                                        | ---] Starting the Mainloop
+[2025-11-11T08:34:59.770438: : <14> operator()@rest_server.cc:299                         | ---] REST server started: 7777. Accepting: loopback connections
+[2025-11-11T08:34:59.815563: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 1
+[2025-11-11T08:34:59.844333: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 10
+[2025-11-11T08:34:59.873701: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 11
+[2025-11-11T08:34:59.904887: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 12
+[2025-11-11T08:34:59.937607: : <25> tryToBioConnect@connection.cc:518                     | ###] Connection to: 127.0.0.1:12001 failed and won't retry. Error: error:8000006F:system library::Connection refused
+[2025-11-11T08:34:59.937651: : <25> connectToHost@connection.cc:577                       | ###] Connection to: 127.0.0.1:12001 failed and will be suspended for 60 seconds
+[2025-11-11T08:34:59.937663: : <25> establishConnection@connection.cc:201                 | ###] Failed to connect to host: 127.0.0.1:12001. There won't be a retry attempt.
+[2025-11-11T08:34:59.937677: : <25> establishNewConnection@connection_comp.cc:106         | ###] Failed to establish connection. Error: 127.0.0.1:12001. There won't be a retry attempt.
+[2025-11-11T08:34:59.937687: : <25> getConnection@messaging_comp.cc:109                   | ###] Failed to establish connection. Error: 127.0.0.1:12001. There won't be a retry attempt.
+[2025-11-11T08:34:59.937696: : <25> sendMessage@messaging_comp.cc:125                     | ###] Failed to get connection. Error: Failed to establish connection. Error: 127.0.0.1:12001. There won't be a retry attempt.
+[2025-11-11T08:34:59.937716: : <25> loadExistingPolicy@orchestration_comp.cc:2180         | ###] Failed to load the existing policy and settings, Error: The reconfiguration failed for serivce: 2
+[2025-11-11T08:34:59.938381: : <25> getRegistrationToken@fog_authenticator.cc:388         | ---] Registration token has been loaded from: /etc/cp/conf/registration-data.json
+[2025-11-11T08:34:59.983893: : <5> reportStartupEvent@mainloop.cc:229                     | ---] Startup report was successfully sent to fog
+[2025-11-11T08:34:59.984668: : <12> setupAlternateSignalStack@signal_handler.cc:272       | ---] Alternate stack allocated successfully. Allocated size: 1048576
+[2025-11-11T08:35:00.878608: : <26> run@mainloop.cc:325                                   | ###] Routine execution exceeded run time. Routine name: Health check manager periodic check, time slice: 1500, exceeded time: 373861 microseconds
+[2025-11-11T08:35:00.890228: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"4f0a0626-05fa-4583-abdf-727a3653e300","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"4f0a0626-05fa-4583-abdf-727a3653e300","severity":"High"}
+[2025-11-11T08:35:00.890314: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"4f0a0626-05fa-4583-abdf-727a3653e300","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"4f0a0626-05fa-4583-abdf-727a3653e300","severity":"High"} Next attempt to start the orchestration will be in: 30 seconds
+[2025-11-11T08:35:02.360778: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 355256 microseconds
+[2025-11-11T08:35:08.513167: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 353836 microseconds
+[2025-11-11T08:35:30.900371: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:35:31.380008: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fddff9d2-2baf-4881-936e-bc09cf7017d1","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fddff9d2-2baf-4881-936e-bc09cf7017d1","severity":"High"}
+[2025-11-11T08:35:31.380080: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fddff9d2-2baf-4881-936e-bc09cf7017d1","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fddff9d2-2baf-4881-936e-bc09cf7017d1","severity":"High"} Next attempt to start the orchestration will be in: 30 seconds
+[2025-11-11T08:36:01.388274: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:36:01.792192: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"aaff13e4-8bbc-4911-8c32-05c3388935fb","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"aaff13e4-8bbc-4911-8c32-05c3388935fb","severity":"High"}
+[2025-11-11T08:36:01.792265: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"aaff13e4-8bbc-4911-8c32-05c3388935fb","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"aaff13e4-8bbc-4911-8c32-05c3388935fb","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:37:01.793147: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:37:02.018392: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"e92b0f32-fcb3-436e-be8f-0f308a87685e","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"e92b0f32-fcb3-436e-be8f-0f308a87685e","severity":"High"}
+[2025-11-11T08:37:02.018482: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"e92b0f32-fcb3-436e-be8f-0f308a87685e","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"e92b0f32-fcb3-436e-be8f-0f308a87685e","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON File stream
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON FOG stream
+[init@components_list_impl.h:128                              | ---] Initializing component: Environment
+[init@components_list_impl.h:128                              | ---] Initializing component: DebugIS
+[2025-11-11T08:37:24.062281: : init@components_list_impl.h:128                            | ---] Initializing component: Version
+[2025-11-11T08:37:24.062300: : init@components_list_impl.h:128                            | ---] Initializing component: Buffer
+[2025-11-11T08:37:24.062309: : init@components_list_impl.h:128                            | ---] Initializing component: ShellCmd
+[2025-11-11T08:37:24.062317: : init@components_list_impl.h:128                            | ---] Initializing component: MetricScraper
+[2025-11-11T08:37:24.062328: : init@components_list_impl.h:128                            | ---] Initializing component: GenericMetric
+[2025-11-11T08:37:24.062338: : init@components_list_impl.h:128                            | ---] Initializing component: Messaging
+[2025-11-11T08:37:24.062644: : init@components_list_impl.h:128                            | ---] Initializing component: MainloopComponent
+[2025-11-11T08:37:24.062778: : init@components_list_impl.h:128                            | ---] Initializing component: ConfigComponent
+[2025-11-11T08:37:24.062878: : init@components_list_impl.h:128                            | ---] Initializing component: InstanceAwareness
+[2025-11-11T08:37:24.062893: : init@components_list_impl.h:128                            | ---] Initializing component: IntelligenceComponentV2
+[2025-11-11T08:37:24.062981: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetails
+[2025-11-11T08:37:24.065519: : getMachineTypeFromDmiTable@agent_details.cc:368            | ###] Error. Could not decode the DMI table. Table value is empty
+[2025-11-11T08:37:24.065551: : registerMachineType@agent_details.cc:390                   | ###] Error. Machine type is unrecognized
+[2025-11-11T08:37:24.065584: : registerMachineType@agent_details.cc:395                   | ---] Setting machine type 3
+[2025-11-11T08:37:24.065889: : init@components_list_impl.h:128                            | ---] Initializing component: LoggingComp
+[2025-11-11T08:37:24.066035: : init@components_list_impl.h:128                            | ---] Initializing component: TimeProxyComponent
+[2025-11-11T08:37:24.066047: : init@components_list_impl.h:128                            | ---] Initializing component: SignalHandler
+[2025-11-11T08:37:24.066172: : init@components_list_impl.h:128                            | ---] Initializing component: RestServer
+[2025-11-11T08:37:24.066246: : init@components_list_impl.h:128                            | ---] Initializing component: Encryptor
+[2025-11-11T08:37:24.066256: : init@components_list_impl.h:128                            | ---] Initializing component: SocketIS
+[2025-11-11T08:37:24.066265: : init@components_list_impl.h:128                            | ---] Initializing component: CPUCalculator
+[2025-11-11T08:37:24.066274: : init@components_list_impl.h:128                            | ---] Initializing component: CPUManager
+[2025-11-11T08:37:24.066479: : init@components_list_impl.h:128                            | ---] Initializing component: MemoryCalculator
+[2025-11-11T08:37:24.066604: : init@components_list_impl.h:128                            | ---] Initializing component: TenantManager
+[2025-11-11T08:37:24.066621: : init@components_list_impl.h:128                            | ---] Initializing component: GenericRulebase
+[2025-11-11T08:37:24.066630: : init@components_list_impl.h:128                            | ---] Initializing component: EnvDetails
+[2025-11-11T08:37:24.066638: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationStatus
+[2025-11-11T08:37:24.066736: : loadFromFile@orchestration_status.cc:510                   | ---] Orchestration status loaded from file. File: /etc/cp/conf/orchestration_status.json
+[2025-11-11T08:37:24.066827: : init@components_list_impl.h:128                            | ---] Initializing component: PackageHandler
+[2025-11-11T08:37:24.066839: : init@components_list_impl.h:128                            | ---] Initializing component: Downloader
+[2025-11-11T08:37:24.067292: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceController
+[2025-11-11T08:37:24.067745: : init@components_list_impl.h:128                            | ---] Initializing component: ManifestController
+[2025-11-11T08:37:24.067795: : init@components_list_impl.h:128                            | ---] Initializing component: UpdateCommunication
+[2025-11-11T08:37:24.067819: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetailsReporter
+[2025-11-11T08:37:24.067967: : init@components_list_impl.h:128                            | ---] Initializing component: DetailsResolver
+[2025-11-11T08:37:24.067986: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationComp
+[2025-11-11T08:37:24.074666: : setOpenSSLCerts@orchestration_comp.cc:2013                 | ###] Failed to load OpenSSL default certificate authority. Error: no OpenSSL directory found
+[2025-11-11T08:37:24.075129: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationTools
+[2025-11-11T08:37:24.075149: : init@components_list_impl.h:128                            | ---] Initializing component: HealthChecker
+[2025-11-11T08:37:24.075191: : init@components_list_impl.h:128                            | ---] Initializing component: HealthCheckManager
+[2025-11-11T08:37:24.075280: : init@components_list_impl.h:128                            | ---] Initializing component: LocalPolicyMgmtGenerator
+[2025-11-11T08:37:24.075291: : init@components_list_impl.h:128                            | ---] Initializing component: ExternalSdkServer
+[2025-11-11T08:37:24.075306: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceHealthStatus
+[2025-11-11T08:37:24.075359: : run@mainloop.cc:244                                        | ---] Starting the Mainloop
+[2025-11-11T08:37:24.075521: : <14> operator()@rest_server.cc:299                         | ---] REST server started: 7777. Accepting: loopback connections
+[2025-11-11T08:37:24.120667: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 1
+[2025-11-11T08:37:24.149810: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 10
+[2025-11-11T08:37:24.179738: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 11
+[2025-11-11T08:37:24.208914: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 12
+[2025-11-11T08:37:24.238343: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 2
+[2025-11-11T08:37:24.266479: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 3
+[2025-11-11T08:37:24.294731: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 4
+[2025-11-11T08:37:24.323175: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 5
+[2025-11-11T08:37:24.351220: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 6
+[2025-11-11T08:37:24.381776: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 7
+[2025-11-11T08:37:24.411855: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 8
+[2025-11-11T08:37:24.440990: : <25> sendSignalForServices@service_controller.cc:987       | ###] Erasing details regarding inactive service 9
+[2025-11-11T08:37:24.493127: : <5> reportStartupEvent@mainloop.cc:229                     | ---] Startup report was successfully sent to fog
+[2025-11-11T08:37:24.493451: : <12> setupAlternateSignalStack@signal_handler.cc:272       | ---] Alternate stack allocated successfully. Allocated size: 1048576
+[2025-11-11T08:37:24.628025: : <29> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 13, Service Name: Attachment Registration Manager
+[2025-11-11T08:37:24.994855: : <26> run@mainloop.cc:325                                   | ###] Routine execution exceeded run time. Routine name: Health check manager periodic check, time slice: 1500, exceeded time: 340161 microseconds
+[2025-11-11T08:37:26.621283: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 345044 microseconds
+[2025-11-11T08:37:26.897132: : <30> getAccessToken@fog_authenticator.cc:321               | ---] Sending request for access token. Trace: d93ab991-6c77-4b9c-8b54-fca81b2d01fe
+[2025-11-11T08:37:27.102030: : <30> getAccessToken@fog_authenticator.cc:343               | ---] New access token was saved
+[2025-11-11T08:37:27.102176: : <30> operator()@fog_authenticator.cc:632                   | ---] New token was received, expiration time: 3600
+[2025-11-11T08:37:29.171602: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 349026 microseconds
+[2025-11-11T08:37:38.943216: : <43> sendRegistrationData@orchestration_comp.cc:1745       | ---] Sending registration data
+[2025-11-11T08:37:38.943397: : <44> getRegistrationToken@fog_authenticator.cc:396         | ---] Registration token has been loaded from container environment
+[2025-11-11T08:37:38.943477: : <44> registerLocalAgentToFog@fog_authenticator.cc:419      | ---] Start local agent registration to the fog
+[2025-11-11T08:37:39.200208: : run@mainloop.cc:365                                        | ---] Mainloop ended - stopping all routines
+[2025-11-11T08:37:39.200311: : fini@components_list_impl.h:137                            | ---] Finalizing component: ServiceHealthStatus
+[2025-11-11T08:37:39.200324: : fini@components_list_impl.h:137                            | ---] Finalizing component: ExternalSdkServer
+[2025-11-11T08:37:39.200333: : fini@components_list_impl.h:137                            | ---] Finalizing component: LocalPolicyMgmtGenerator
+[2025-11-11T08:37:39.200341: : fini@components_list_impl.h:137                            | ---] Finalizing component: HealthCheckManager
+[2025-11-11T08:37:39.200349: : fini@components_list_impl.h:137                            | ---] Finalizing component: HealthChecker
+[2025-11-11T08:37:39.200358: : fini@components_list_impl.h:137                            | ---] Finalizing component: OrchestrationTools
+[2025-11-11T08:37:39.200366: : fini@components_list_impl.h:137                            | ---] Finalizing component: OrchestrationComp
+[2025-11-11T08:37:39.200483: : fini@components_list_impl.h:137                            | ---] Finalizing component: DetailsResolver
+[2025-11-11T08:37:39.200494: : fini@components_list_impl.h:137                            | ---] Finalizing component: AgentDetailsReporter
+[2025-11-11T08:37:39.200566: : fini@components_list_impl.h:137                            | ---] Finalizing component: UpdateCommunication
+[2025-11-11T08:37:39.200576: : fini@components_list_impl.h:137                            | ---] Finalizing component: ManifestController
+[2025-11-11T08:37:39.200584: : fini@components_list_impl.h:137                            | ---] Finalizing component: ServiceController
+[2025-11-11T08:37:39.200592: : fini@components_list_impl.h:137                            | ---] Finalizing component: Downloader
+[2025-11-11T08:37:39.200599: : fini@components_list_impl.h:137                            | ---] Finalizing component: PackageHandler
+[2025-11-11T08:37:39.200607: : fini@components_list_impl.h:137                            | ---] Finalizing component: OrchestrationStatus
+[2025-11-11T08:37:39.200619: : fini@components_list_impl.h:137                            | ---] Finalizing component: EnvDetails
+[2025-11-11T08:37:39.200627: : fini@components_list_impl.h:137                            | ---] Finalizing component: GenericRulebase
+[2025-11-11T08:37:39.200635: : fini@components_list_impl.h:137                            | ---] Finalizing component: TenantManager
+[2025-11-11T08:37:39.200643: : fini@components_list_impl.h:137                            | ---] Finalizing component: MemoryCalculator
+[2025-11-11T08:37:39.200651: : fini@components_list_impl.h:137                            | ---] Finalizing component: CPUManager
+[2025-11-11T08:37:39.200658: : fini@components_list_impl.h:137                            | ---] Finalizing component: CPUCalculator
+[2025-11-11T08:37:39.200666: : fini@components_list_impl.h:137                            | ---] Finalizing component: SocketIS
+[2025-11-11T08:37:39.200675: : fini@components_list_impl.h:137                            | ---] Finalizing component: Encryptor
+[2025-11-11T08:37:39.200682: : fini@components_list_impl.h:137                            | ---] Finalizing component: RestServer
+[2025-11-11T08:37:39.200691: : fini@rest_server.cc:315                                    | ---] Stoping the REST server
+[2025-11-11T08:37:39.200700: : fini@components_list_impl.h:137                            | ---] Finalizing component: SignalHandler
+[2025-11-11T08:37:39.200708: : fini@components_list_impl.h:137                            | ---] Finalizing component: TimeProxyComponent
+[2025-11-11T08:37:39.200716: : fini@components_list_impl.h:137                            | ---] Finalizing component: LoggingComp
+[2025-11-11T08:37:39.200725: : fini@components_list_impl.h:137                            | ---] Finalizing component: AgentDetails
+[2025-11-11T08:37:39.200732: : fini@components_list_impl.h:137                            | ---] Finalizing component: IntelligenceComponentV2
+[2025-11-11T08:37:39.200739: : fini@components_list_impl.h:137                            | ---] Finalizing component: InstanceAwareness
+[2025-11-11T08:37:39.200767: : fini@components_list_impl.h:137                            | ---] Finalizing component: ConfigComponent
+[2025-11-11T08:37:39.200781: : fini@components_list_impl.h:137                            | ---] Finalizing component: MainloopComponent
+[2025-11-11T08:37:39.200796: : fini@components_list_impl.h:137                            | ---] Finalizing component: Messaging
+[2025-11-11T08:37:39.200809: : fini@components_list_impl.h:137                            | ---] Finalizing component: GenericMetric
+[2025-11-11T08:37:39.200821: : fini@components_list_impl.h:137                            | ---] Finalizing component: MetricScraper
+[2025-11-11T08:37:39.200833: : fini@components_list_impl.h:137                            | ---] Finalizing component: ShellCmd
+[2025-11-11T08:37:39.200844: : fini@components_list_impl.h:137                            | ---] Finalizing component: Buffer
+[2025-11-11T08:37:39.200854: : fini@components_list_impl.h:137                            | ---] Finalizing component: Version
+[2025-11-11T08:37:39.200861: : fini@components_list_impl.h:137                            | ---] Finalizing component: DebugIS
+[readAgentDetails@agent_details.cc:101                        | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON File stream
+[addStream@logging.cc:107                                     | ---] Successfully added log stream. Stream type: JSON FOG stream
+[init@components_list_impl.h:128                              | ---] Initializing component: Environment
+[init@components_list_impl.h:128                              | ---] Initializing component: DebugIS
+[2025-11-11T08:37:41.572726: : init@components_list_impl.h:128                            | ---] Initializing component: Version
+[2025-11-11T08:37:41.572745: : init@components_list_impl.h:128                            | ---] Initializing component: Buffer
+[2025-11-11T08:37:41.572761: : init@components_list_impl.h:128                            | ---] Initializing component: ShellCmd
+[2025-11-11T08:37:41.572770: : init@components_list_impl.h:128                            | ---] Initializing component: MetricScraper
+[2025-11-11T08:37:41.572780: : init@components_list_impl.h:128                            | ---] Initializing component: GenericMetric
+[2025-11-11T08:37:41.572789: : init@components_list_impl.h:128                            | ---] Initializing component: Messaging
+[2025-11-11T08:37:41.573147: : init@components_list_impl.h:128                            | ---] Initializing component: MainloopComponent
+[2025-11-11T08:37:41.573284: : init@components_list_impl.h:128                            | ---] Initializing component: ConfigComponent
+[2025-11-11T08:37:41.573363: : init@components_list_impl.h:128                            | ---] Initializing component: InstanceAwareness
+[2025-11-11T08:37:41.573374: : init@components_list_impl.h:128                            | ---] Initializing component: IntelligenceComponentV2
+[2025-11-11T08:37:41.573450: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetails
+[2025-11-11T08:37:41.576024: : getMachineTypeFromDmiTable@agent_details.cc:368            | ###] Error. Could not decode the DMI table. Table value is empty
+[2025-11-11T08:37:41.576055: : registerMachineType@agent_details.cc:390                   | ###] Error. Machine type is unrecognized
+[2025-11-11T08:37:41.576066: : registerMachineType@agent_details.cc:395                   | ---] Setting machine type 3
+[2025-11-11T08:37:41.576092: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:37:41.576236: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:37:41.576255: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:37:41.576264: : init@components_list_impl.h:128                            | ---] Initializing component: LoggingComp
+[2025-11-11T08:37:41.576398: : init@components_list_impl.h:128                            | ---] Initializing component: TimeProxyComponent
+[2025-11-11T08:37:41.576409: : init@components_list_impl.h:128                            | ---] Initializing component: SignalHandler
+[2025-11-11T08:37:41.576523: : init@components_list_impl.h:128                            | ---] Initializing component: RestServer
+[2025-11-11T08:37:41.576597: : init@components_list_impl.h:128                            | ---] Initializing component: Encryptor
+[2025-11-11T08:37:41.576608: : init@components_list_impl.h:128                            | ---] Initializing component: SocketIS
+[2025-11-11T08:37:41.576616: : init@components_list_impl.h:128                            | ---] Initializing component: CPUCalculator
+[2025-11-11T08:37:41.576624: : init@components_list_impl.h:128                            | ---] Initializing component: CPUManager
+[2025-11-11T08:37:41.576914: : init@components_list_impl.h:128                            | ---] Initializing component: MemoryCalculator
+[2025-11-11T08:37:41.577068: : init@components_list_impl.h:128                            | ---] Initializing component: TenantManager
+[2025-11-11T08:37:41.577090: : init@components_list_impl.h:128                            | ---] Initializing component: GenericRulebase
+[2025-11-11T08:37:41.577098: : init@components_list_impl.h:128                            | ---] Initializing component: EnvDetails
+[2025-11-11T08:37:41.577106: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationStatus
+[2025-11-11T08:37:41.577207: : loadFromFile@orchestration_status.cc:510                   | ---] Orchestration status loaded from file. File: /etc/cp/conf/orchestration_status.json
+[2025-11-11T08:37:41.577313: : init@components_list_impl.h:128                            | ---] Initializing component: PackageHandler
+[2025-11-11T08:37:41.577325: : init@components_list_impl.h:128                            | ---] Initializing component: Downloader
+[2025-11-11T08:37:41.577347: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceController
+[2025-11-11T08:37:41.577715: : init@components_list_impl.h:128                            | ---] Initializing component: ManifestController
+[2025-11-11T08:37:41.577758: : init@components_list_impl.h:128                            | ---] Initializing component: UpdateCommunication
+[2025-11-11T08:37:41.577788: : init@components_list_impl.h:128                            | ---] Initializing component: AgentDetailsReporter
+[2025-11-11T08:37:41.577918: : init@components_list_impl.h:128                            | ---] Initializing component: DetailsResolver
+[2025-11-11T08:37:41.577938: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationComp
+[2025-11-11T08:37:41.581293: : readAgentDetails@agent_details.cc:101                      | ###] Agent details file does not exist. File: /etc/cp/conf/agent_details.json
+[2025-11-11T08:37:41.584046: : setOpenSSLCerts@orchestration_comp.cc:2013                 | ###] Failed to load OpenSSL default certificate authority. Error: no OpenSSL directory found
+[2025-11-11T08:37:41.584578: : init@components_list_impl.h:128                            | ---] Initializing component: OrchestrationTools
+[2025-11-11T08:37:41.584597: : init@components_list_impl.h:128                            | ---] Initializing component: HealthChecker
+[2025-11-11T08:37:41.584639: : init@components_list_impl.h:128                            | ---] Initializing component: HealthCheckManager
+[2025-11-11T08:37:41.584717: : init@components_list_impl.h:128                            | ---] Initializing component: LocalPolicyMgmtGenerator
+[2025-11-11T08:37:41.584729: : init@components_list_impl.h:128                            | ---] Initializing component: ExternalSdkServer
+[2025-11-11T08:37:41.584739: : init@components_list_impl.h:128                            | ---] Initializing component: ServiceHealthStatus
+[2025-11-11T08:37:41.584826: : run@mainloop.cc:244                                        | ---] Starting the Mainloop
+[2025-11-11T08:37:41.584971: : <14> operator()@rest_server.cc:299                         | ---] REST server started: 7777. Accepting: loopback connections
+[2025-11-11T08:37:41.652744: : <5> reportStartupEvent@mainloop.cc:229                     | ---] Startup report was successfully sent to fog
+[2025-11-11T08:37:41.653044: : <12> setupAlternateSignalStack@signal_handler.cc:272       | ---] Alternate stack allocated successfully. Allocated size: 1048576
+[2025-11-11T08:37:42.204377: : <26> run@mainloop.cc:325                                   | ###] Routine execution exceeded run time. Routine name: Health check manager periodic check, time slice: 1500, exceeded time: 366304 microseconds
+[2025-11-11T08:37:42.247841: : <30> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 1, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:42.386261: : <32> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 2, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:42.526230: : <34> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 3, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.010839: : <36> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 4, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.061987: : <38> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 5, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.113090: : <40> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 6, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.163820: : <42> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 7, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.214797: : <44> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 8, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.265789: : <46> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 9, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.316469: : <48> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 10, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.367869: : <50> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 11, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.418512: : <52> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 12, Service Name: HTTP Transaction Handler
+[2025-11-11T08:37:43.443898: : <53> doCall@service_controller.cc:86                       | ---] Request for service reconfiguration successfully accomplished. Reconf ID: 13, Service Name: Attachment Registration Manager
+[2025-11-11T08:37:44.117019: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 354455 microseconds
+[2025-11-11T08:37:45.453730: : <25> getRegistrationToken@fog_authenticator.cc:388         | ---] Registration token has been loaded from: /etc/cp/conf/registration-data.json
+[2025-11-11T08:37:45.699064: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"54e90548-fb05-400f-9096-67629040a813","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"54e90548-fb05-400f-9096-67629040a813","severity":"High"}
+[2025-11-11T08:37:45.699157: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"54e90548-fb05-400f-9096-67629040a813","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"54e90548-fb05-400f-9096-67629040a813","severity":"High"} Next attempt to start the orchestration will be in: 30 seconds
+[2025-11-11T08:37:47.658199: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 359908 microseconds
+[2025-11-11T08:38:15.703995: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:38:15.955018: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"3ac85298-c4cf-4a8f-b5ee-e1e013f0a8a6","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"3ac85298-c4cf-4a8f-b5ee-e1e013f0a8a6","severity":"High"}
+[2025-11-11T08:38:15.955112: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"3ac85298-c4cf-4a8f-b5ee-e1e013f0a8a6","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"3ac85298-c4cf-4a8f-b5ee-e1e013f0a8a6","severity":"High"} Next attempt to start the orchestration will be in: 30 seconds
+[2025-11-11T08:38:45.965147: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:38:47.480644: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"8d057feb-2f1c-4cb5-9bea-c5589acfbd75","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"8d057feb-2f1c-4cb5-9bea-c5589acfbd75","severity":"High"}
+[2025-11-11T08:38:47.480741: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"8d057feb-2f1c-4cb5-9bea-c5589acfbd75","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"8d057feb-2f1c-4cb5-9bea-c5589acfbd75","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:39:47.482055: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:39:47.719783: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"8eaa217b-053d-4d5a-a9c7-1a8db9deb6b3","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"8eaa217b-053d-4d5a-a9c7-1a8db9deb6b3","severity":"High"}
+[2025-11-11T08:39:47.719857: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"8eaa217b-053d-4d5a-a9c7-1a8db9deb6b3","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"8eaa217b-053d-4d5a-a9c7-1a8db9deb6b3","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:40:47.731612: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:40:47.957411: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"4d7e59ca-a200-43ae-878d-31f5a39d6cb6","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"4d7e59ca-a200-43ae-878d-31f5a39d6cb6","severity":"High"}
+[2025-11-11T08:40:47.957494: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"4d7e59ca-a200-43ae-878d-31f5a39d6cb6","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"4d7e59ca-a200-43ae-878d-31f5a39d6cb6","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:41:47.964681: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:41:48.213260: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"27bef636-ae86-41c9-bc9d-931ad83ec8ff","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"27bef636-ae86-41c9-bc9d-931ad83ec8ff","severity":"High"}
+[2025-11-11T08:41:48.213342: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"27bef636-ae86-41c9-bc9d-931ad83ec8ff","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"27bef636-ae86-41c9-bc9d-931ad83ec8ff","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:42:48.221157: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:42:48.506545: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fcd5268a-06a6-435e-93df-be9ddd6d72a7","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fcd5268a-06a6-435e-93df-be9ddd6d72a7","severity":"High"}
+[2025-11-11T08:42:48.506626: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fcd5268a-06a6-435e-93df-be9ddd6d72a7","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"fcd5268a-06a6-435e-93df-be9ddd6d72a7","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:43:48.518374: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:43:48.974164: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"367e0692-f0fb-428d-9f7c-bb9279695a35","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"367e0692-f0fb-428d-9f7c-bb9279695a35","severity":"High"}
+[2025-11-11T08:43:48.974240: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"367e0692-f0fb-428d-9f7c-bb9279695a35","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"367e0692-f0fb-428d-9f7c-bb9279695a35","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:44:48.986993: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:44:49.772443: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"7d588126-4410-4eeb-803a-4d46fec9b3b8","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"7d588126-4410-4eeb-803a-4d46fec9b3b8","severity":"High"}
+[2025-11-11T08:44:49.772521: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"7d588126-4410-4eeb-803a-4d46fec9b3b8","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"7d588126-4410-4eeb-803a-4d46fec9b3b8","severity":"High"} Next attempt to start the orchestration will be in: 60 seconds
+[2025-11-11T08:45:49.776755: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:45:50.013043: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"c5c67888-1a46-425a-8ddf-dad400cefae3","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"c5c67888-1a46-425a-8ddf-dad400cefae3","severity":"High"}
+[2025-11-11T08:45:50.013126: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"c5c67888-1a46-425a-8ddf-dad400cefae3","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"c5c67888-1a46-425a-8ddf-dad400cefae3","severity":"High"} Next attempt to start the orchestration will be in: 300 seconds
+[2025-11-11T08:47:53.526530: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 348827 microseconds
+[2025-11-11T08:50:50.022552: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:50:50.268685: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"857752f6-e9ce-4b49-9671-e92a96270b6e","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"857752f6-e9ce-4b49-9671-e92a96270b6e","severity":"High"}
+[2025-11-11T08:50:50.268824: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"857752f6-e9ce-4b49-9671-e92a96270b6e","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"857752f6-e9ce-4b49-9671-e92a96270b6e","severity":"High"} Next attempt to start the orchestration will be in: 300 seconds
+[2025-11-11T08:55:50.278124: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T08:55:50.722985: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"7dfa9b74-71bd-404b-b9fd-86f7d9b85c71","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"7dfa9b74-71bd-404b-b9fd-86f7d9b85c71","severity":"High"}
+[2025-11-11T08:55:50.723071: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"7dfa9b74-71bd-404b-b9fd-86f7d9b85c71","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"7dfa9b74-71bd-404b-b9fd-86f7d9b85c71","severity":"High"} Next attempt to start the orchestration will be in: 300 seconds
+[2025-11-11T08:57:52.286835: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 362103 microseconds
+[2025-11-11T09:00:50.729753: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T09:00:50.957172: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"f364b19d-50a6-4c04-bd5e-938d725155a8","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"f364b19d-50a6-4c04-bd5e-938d725155a8","severity":"High"}
+[2025-11-11T09:00:50.957253: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"f364b19d-50a6-4c04-bd5e-938d725155a8","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"f364b19d-50a6-4c04-bd5e-938d725155a8","severity":"High"} Next attempt to start the orchestration will be in: 300 seconds
+[2025-11-11T09:05:50.968868: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T09:05:51.192985: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"aee941a4-b927-4c5c-a1e3-ce62a0a80c7b","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"aee941a4-b927-4c5c-a1e3-ce62a0a80c7b","severity":"High"}
+[2025-11-11T09:05:51.193067: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"aee941a4-b927-4c5c-a1e3-ce62a0a80c7b","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"aee941a4-b927-4c5c-a1e3-ce62a0a80c7b","severity":"High"} Next attempt to start the orchestration will be in: 300 seconds
+[2025-11-11T09:07:53.217624: : <4> run@mainloop.cc:325                                    | ###] Routine execution exceeded run time. Routine name: Handling in-memory messages, time slice: 1500, exceeded time: 367183 microseconds
+[2025-11-11T09:10:51.197629: : <25> getRegistrationData@fog_authenticator.cc:361          | ---] Loading registration token from cache
+[2025-11-11T09:10:51.422328: : <25> authenticateAgent@fog_authenticator.cc:599            | ###] Failed to authenticate the agent: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"f31cc1b9-fabe-4bbb-91b3-8836096b36f7","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"f31cc1b9-fabe-4bbb-91b3-8836096b36f7","severity":"High"}
+[2025-11-11T09:10:51.422426: : <25> run@orchestration_comp.cc:1658                        | ###] Orchestration not started yet. Status: Failed to register agent with the Fog. Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"f31cc1b9-fabe-4bbb-91b3-8836096b36f7","severity":"High"} [Status-code]: 0 - NO_HTTP_RESPONSE, [Body]: Failed to parse response body. Body: {"messageId":"117-023","message":"Token is invalid","referenceId":"f31cc1b9-fabe-4bbb-91b3-8836096b36f7","severity":"High"} Next attempt to start the orchestration will be in: 300 seconds

@@ -1,0 +1,3 @@
+
+2025.11.11-08.03.48 :  /usr/sbin/open-appsec-ctl --set-mode --online_mode --token cp-e6a1c8da-298f-4db4-9ab0-b1965160138244ca122e-346d-4ed8-b6f2-c7bbeab61395 --fog https://inext-agents.cloud.ngen.checkpoint.com
+2025.11.11-08.37.39 :  /usr/sbin/open-appsec-ctl --set-mode --online_mode --token cp-e6a1c8da-298f-4db4-9ab0-b1965160138244ca122e-346d-4ed8-b6f2-c7bbeab61395 --fog https://inext-agents.cloud.ngen.checkpoint.com

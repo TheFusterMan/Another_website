@@ -1,0 +1,73 @@
+version: '3.9'
+
+services:
+    web:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        environment:
+            - DATABASE_HOST=db
+            - DATABASE_PORT=3306
+            - DATABASE_NAME=first
+            - DATABASE_USER=pozhidaev
+            - DATABASE_PASSWORD=msitop
+        volumes:
+            - ./:/var/www/html
+        depends_on:
+            - db
+        networks:
+            custom_network:
+                ipv4_address: 172.20.0.22
+
+    db:
+        image: mariadb
+        environment:
+            MYSQL_DATABASE: first
+            MYSQL_USER: pozhidaev
+            MYSQL_PASSWORD: msitop
+            MYSQL_ROOT_PASSWORD: msitop
+        volumes:
+            - db_data:/var/lib/mysql
+        networks:
+            custom_network:
+                ipv4_address: 172.20.0.23
+
+    open-appsec-agent:
+        image: ghcr.io/openappsec/agent:latest
+        container_name: open-appsec-agent
+        ipc: host
+        environment:
+            - registered_server=NGINX
+            - CP_AGENT_LOG_LEVEL=debug
+            - AGENT_TOKEN=cp-1ff1802c-f895-4ec8-864b-3d8ab776c5af2d3dbe88-ffaf-4a2f-8c5b-4a72c8456b33
+        volumes:
+            - ./openappsec/config:/etc/cp/conf
+            - ./openappsec/data:/etc/cp/data
+            - ./openappsec/logs:/etc/cp/nano_agent
+        networks:
+            - custom_network
+
+    open-appsec-nginx:
+        image: ghcr.io/openappsec/nginx-attachment:latest
+        container_name: open-appsec-nginx
+        depends_on:
+            - web
+            - open-appsec-agent
+        ipc: host
+        ports:
+            - "80:80"
+        volumes:
+            - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+        networks:
+            custom_network:
+                ipv4_address: 172.20.0.24
+
+volumes:
+    db_data: {}
+
+networks:
+    custom_network:
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 172.20.0.0/16

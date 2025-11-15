@@ -22,7 +22,7 @@
                 </div>
                 <?php
                 } else {
-                    $link = mysqli_connect('127.0.0.1', 'root', 'msitop', 'first');
+                    $link = mysqli_connect('db', 'root', 'msitop', 'first');
                     $sql = "SELECT * FROM posts";
                     $res = mysqli_query($link,  $sql);
                     if (mysqli_num_rows($res) > 0) {

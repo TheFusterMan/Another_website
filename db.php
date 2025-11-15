@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-$servername = "127.0.0.1";
+$servername = "db";
 $username = "root";
 $password = "msitop";
 $dbName = "first";

@@ -36,7 +36,7 @@ if (isset($_COOKIE['User'])) {
     exit();
 }
 
-$link = mysqli_connect('127.0.0.1', 'root', 'msitop', 'first');
+$link = mysqli_connect('db', 'root', 'msitop', 'first');
 
 if (isset($_POST['submit'])) {
     $login = $_POST['login'];

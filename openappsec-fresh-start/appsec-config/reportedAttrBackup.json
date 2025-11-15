@@ -1,0 +1,7 @@
+{
+    "attributes": {
+        "AppSecModelVersion": "Simple model, V1.0",
+        "kernel_version": "6.6.87.2-microsoft-standard-WSL2",
+        "os_release": "Alpine Linux v3.22"
+    }
+}
