@@ -108,7 +108,7 @@ if (isset($_POST['submit'])) {
 
     if (!mysqli_query($link, $sql)) die("error insert data post");
 
-    if (isset($_FILES['file'])) {
+    if (isset($_FILES['file']) && $_FILES['file']['error'] !== UPLOAD_ERR_NO_FILE) {
         $errors = [];
         $allowedTypes = ['image/gif', 'image/jpeg', 'image/jpg', 'image/pjpeg', 'image/x-png', 'image/png'];
         $maxFileSize = 102400;

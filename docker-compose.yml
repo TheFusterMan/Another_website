@@ -38,8 +38,7 @@ services:
         ipc: host
         environment:
             - registered_server=NGINX
-            - CP_AGENT_LOG_LEVEL=debug
-            - AGENT_TOKEN=cp-1ff1802c-f895-4ec8-864b-3d8ab776c5af2d3dbe88-ffaf-4a2f-8c5b-4a72c8456b33
+            - AGENT_TOKEN=cp-6b2d4172-033a-4c91-8a1c-ca2266fb14d9fcada5d9-230b-4ba2-b42c-f27a2c2afb49
         volumes:
             - ./openappsec/config:/etc/cp/conf
             - ./openappsec/data:/etc/cp/data

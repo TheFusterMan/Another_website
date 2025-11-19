@@ -1,0 +1,33 @@
+{
+    "Last update attempt": "2025-11-19T04:18:26.860892",
+    "Last update status": "Failed. Reason: Failed during check update. Error: Data error: Failed to download file from inext-agents.cloud.ngen.checkpoint.com. Error: Failed to get file over HTTPS. URL: https://inext-agents.cloud.ngen.checkpoint.com/download/resources/geo-db/latest/geo_db.mmdb:443",
+    "Last update": "2025-11-19T04:18:26.888652",
+    "Last manifest update": "2025-11-17T03:15:49.194533",
+    "Policy version": "6",
+    "Last policy update": "2025-11-19T04:15:34.160329",
+    "Last settings update": "2025-11-19T04:06:40.396883",
+    "Upgrade mode": "automatic",
+    "Fog address": "https://inext-agents.cloud.ngen.checkpoint.com",
+    "Registration status": "Succeeded ",
+    "Registration details": {
+        "Name": "02668afa2203",
+        "Type": "InfinityNextDocker",
+        "Platform": "alpine",
+        "Architecture": "x86_64"
+    },
+    "Agent ID": "34c1ca5c-bbd1-4459-95d0-a7dcf93dbb6d",
+    "Profile ID": "36cd17bb-560e-c1aa-c631-b781071dc5de",
+    "Tenant ID": "org_lVEbWThQt8OKuBIa",
+    "Manifest status": "Succeeded ",
+    "Service policy": {
+        "accessControlV2": "/etc/cp/conf/accessControlV2/accessControlV2.policy",
+        "apiSecurity": "/etc/cp/conf/apiSecurity/apiSecurity.policy",
+        "fileSecurity": "/etc/cp/conf/fileSecurity/fileSecurity.policy",
+        "ips": "/etc/cp/conf/ips/ips.policy",
+        "notification": "/etc/cp/conf/notification/notification.policy",
+        "registration-data": "/etc/cp/conf/registration-data/registration-data.policy",
+        "versions": "/etc/cp/conf/versions/versions.policy",
+        "waap": "/etc/cp/conf/waap/waap.policy"
+    },
+    "Service settings": {}
+}
